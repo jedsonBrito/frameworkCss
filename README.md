@@ -24,7 +24,7 @@ Esse projeto consistitui a criação de um Framework CSS que deverá cumprir os 
 • Deve possuir uma tipografia básica com fontes modernas do Google
 Fonts
 
-• Deve ter uma tipografias paras as tags '<h1>' até '<h6>'
+• Deve ter uma tipografias paras as tags h1 até h6
 
 • Deve permitir utilizar menu horizontais
 
