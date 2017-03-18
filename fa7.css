@@ -27,6 +27,17 @@
 table {border: none;}
 
 
+h1,h2,h3,h4,h5,h6 { font-family: arial, helvetica, sans-serif; }
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+font-family: 'Roboto', sans-serif;
+
+@font-face {
+font-family: 'Roboto', sans-serif;
+}
+
+
 /*Phone*/
 @media only screen and (max-width:320px){
 	.span_1 {
