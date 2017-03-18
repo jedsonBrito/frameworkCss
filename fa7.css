@@ -85,3 +85,8 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
+#light h1 { color : grey; } 
+
+/* neon theme */
+#neon h1 { color : pink; } 
