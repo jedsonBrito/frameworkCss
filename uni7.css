@@ -123,6 +123,23 @@ img,video,embed {
 }
 
 
+/* Tabelas Sem Bordas */
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 8px;
+    text-align: left
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd
+}
+
+
+
 h2 {
     font-size: 2.4em;
     font-weight: 200
