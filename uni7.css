@@ -16,10 +16,10 @@ html {
 }
 
 a {
-    color: #00ccff;
     text-decoration: none;
     font-size: 1.6em
 }
+
 
 a:hover {
     text-decoration: underline
@@ -116,11 +116,6 @@ img,video,embed {
     clear:both
 }
 
-.box {
-    border: 1px solid green;
-    padding: 25px;
-    margin: 25px
-}
 
 
 /* Tabelas Sem Bordas */
@@ -134,10 +129,10 @@ td, th {
     text-align: left
 }
 
-tr:nth-child(even) {
-    background-color: #dddddd
-}
 
+tr:nth-child(even){
+     background-color: #dddddd
+}
 
 
 h2 {
@@ -191,6 +186,33 @@ p {
 
 
 
+/* Paleta de Cores */
+
+.blue,.hover-blue:hover{
+    color:#fff!important;
+    background-color:#2196F3!important
+}
+
+.white,.hover-white:hover{
+    color:#000!important;
+    background-color:#fff!important
+}
+
+.black,.hover-black:hover{
+    color:#fff!important;
+    background-color:#000!important
+}
+
+.red,.hover-red:hover{
+    color:#fff!important;
+    background-color:#f44336!important
+}
+
+.gray-table:nth-child(even){
+    background-color: #dddddd!important
+}
+
+
 /* Medias Queries */
 
 
@@ -219,6 +241,8 @@ p {
     .menu li:first-child {
         margin-left: 0
     }
+    
+
 
 }
 
@@ -240,7 +264,9 @@ p {
     margin-left: 0 
     }
     
-
+    .clearfix{
+        overflow: auto
+    }
     
 }
 
