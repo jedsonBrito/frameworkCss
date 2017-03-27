@@ -1,0 +1,242 @@
+/* Configurando o box-sizing*/
+html{
+    box-sizing:border-box
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+a {
+    color: #00ccff;
+    text-decoration: none;
+    font-size: 1.6em
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+@import url('https://fonts.googleapis.com/css?family=Jim+Nightshade');
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Jim Nightshade', cursive
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+body{
+    font-family: 'Crimson Text', serif
+}
+
+
+.container {
+    max-width: 1128px;
+    margin: 0 auto
+}
+
+.header {
+    width: 100%;
+    height: 48px;
+    margin-top: 3.6em;
+    margin-bottom: 3.6em
+}
+
+.logo {
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 15.744680851064% /*234px / 1128px */  
+}
+
+
+.menu {
+    width: 74.468085106383%; /*840px / 1128px */
+    float: right
+}
+
+.menu ul {
+    float: right
+}
+
+img,video,embed {
+    max-width: 100%
+}
+
+.menu li {
+    font-size: 1.2em;
+    margin-left: 2em;
+    margin-top: 1em;
+    display: inline-block
+}
+
+.menu li a {
+    color: #999
+}
+
+
+.banner {
+    max-height: 650px;
+    margin-bottom: 4.8em;
+    position: relative
+}
+
+
+.principal {
+    position: relative;
+	clear: both;
+	padding: 0px;
+	margin: 0px
+}
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%
+}
+
+.col:first-child {
+    margin-left: 0; 
+}
+
+/*  GROUPING  */
+.group:before,.group:after { 
+    content:""; 
+    display:table 
+}
+.group:after { 
+    clear:both
+}
+
+.box {
+    border: 1px solid green;
+    padding: 25px;
+    margin: 25px
+}
+
+
+h2 {
+    font-size: 2.4em;
+    font-weight: 200
+}
+
+p {
+    font-size: 1.6em
+}
+
+.title{
+    max-width:300px;
+    width: auto
+}
+
+.footer {
+    width: 100%;
+    margin-top: 2.4em;
+    margin-bottom: 2.4em;
+    float: left;
+    text-align: center;
+    clear: both
+}
+
+.footer p {
+    margin-bottom: 0
+}
+
+.footer small {
+    font-size: 1.4em
+}
+
+.footer a {
+    font-size: 1em
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; 
+    display: table 
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+
+/* Medias Queries */
+
+
+
+/* Phone */
+@media only screen and (max-width:480px){
+	.span_1 {
+		width: 100%;
+        margin: 0
+	}
+    
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+    body{
+        font-family: 'Roboto', sans-serif
+    }
+    
+    .menu {
+        width: 100%
+    }
+    
+    .menu ul {
+        float: left;
+        font-size: 0.8em
+    }
+
+    .menu li:first-child {
+        margin-left: 0
+    }
+
+}
+
+
+/*Tablet */
+@media only screen and (min-width:768px) and (max-width:1024px){
+	.span_2 {
+		width: 100%
+	}
+	.span_1 {
+		width: 49.2%
+    }
+
+    .logo {
+        margin-top: 1.2em
+    }
+    
+    .col:nth-child(odd) { 
+    margin-left: 0 
+    }
+    
+}
+
+
+/*Desktop */
+@media only screen and (min-width:1200px){
+	.span_4 {
+		width: 100%
+	}
+	.span_3 {
+		width: 74.6%
+	}
+	.span_2 {
+		width: 49.2%
+	}
+	.span_1 {
+		width: 23.8%
+	}
+    
+    .col:first-child { 
+        margin-left: 0; 
+    }
+    
+}
